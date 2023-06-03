@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Codewell resources for design challenge
-/Resources/
+*/Resources/
