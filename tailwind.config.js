@@ -12,6 +12,12 @@ export default {
       gray: "#adadad",
       yellow: "#fbe850",
     },
+    screens: {
+      mobile: "480px",
+      tablet: "768px",
+      desktop: "992px",
+      "large-desktop": "1280px",
+    },
     extend: {},
   },
   plugins: [],
