@@ -10,6 +10,7 @@ export default {
       white: "#ffffff",
       black: "#000000",
       gray: "#adadad",
+      "dark-gray": "#2c2e35",
       yellow: "#fbe850",
     },
     screens: {
