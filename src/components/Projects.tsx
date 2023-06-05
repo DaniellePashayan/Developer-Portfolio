@@ -30,7 +30,7 @@ const Projects = () => {
           <img src={item.image} alt={item.title} className="my-4 w-[100%] " />
           <a
             href=""
-            className="text-[1.8rem] mobile:text-[2rem] text-left text-white font-serif"
+            className="text-[2rem] text-left text-white font-serif"
           >
             {item.title}.com →
           </a>
