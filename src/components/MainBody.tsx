@@ -5,7 +5,7 @@ const MainBody = () => {
   return (
     <main className="my-5">
       <header className="text-left p-5 mobile:p-9">
-        <h2 className="text-[2.25rem] mobile:text-[4.2rem] text-white font-serif">
+        <h2 className="text-[2.25rem] text-white font-serif">
           Helping companies build better, scalable software.
         </h2>
         <p className="text-gray font-sans text-[1.2rem] mobile:text-[1.5rem]">
@@ -20,7 +20,7 @@ const MainBody = () => {
       <Projects />
 
       <section className="mt-10 py-10 px-5 bg-dark-gray mx-auto">
-        <h1 className="text-white font-serif text-[2.4rem] mobile:text-[2.8rem]">
+        <h1 className="text-white font-serif text-[2.25rem]">
           A co-founder at one of the world's largest communities.
         </h1>
         <p className="mt-2 font-sans text-gray text-[1.2rem] mobile:text-[1.5rem]">
@@ -40,7 +40,7 @@ const MainBody = () => {
       </section>
 
       <section className="pt-5 pb-11 px-5 bg-dark-gray mx-auto">
-        <p className="mt-2 font-sans text-gray text-[1.2rem] mobile:text-[1.5rem]">
+        <p className="mt-2 font-sans text-gray text-[1.2rem]">
           As a developer, you have everything available to you and all that's
           holding you back is yourself.
           <br />
@@ -60,14 +60,14 @@ const MainBody = () => {
       </section>
 
       <section className="pt-10 pb-5 px-5 mx-auto bg-black mobile:w-[80%]">
-        <h1 className="text-white font-serif text-[1.9rem] mobile:text-[2.3rem]">
+        <h1 className="text-white font-serif text-[2.15rem]">
           Interested in working with me?
         </h1>
-        <p className="mt-2 font-sans text-gray text-[1.2rem] mobile:text-[1.5rem]">
+        <p className="mt-2 font-sans text-gray text-[1.2rem]">
           I'm active on all social media platforms listed below, but you can
           also send me an email and I will get back to you within 24-48 hours.
         </p>
-        <button className="bg-yellow px-6 py-3 font-serif">Get in touch</button>
+        <button className="bg-yellow my-5 px-6 py-3 font-serif">Get in touch</button>
       </section>
     </main>
   );

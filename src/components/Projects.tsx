@@ -24,14 +24,15 @@ const projects: ProjectsProps[] = [
 
 const Projects = () => {
   return (
-    <section className="my-10">
+    <section className="my-5">
       {projects.map((item) => (
         <div className="m-4">
-          <img src={item.image} alt={item.title} className="my-4 w-[100%] " />
-          <a
-            href=""
-            className="text-[2rem] text-left text-white font-serif"
-          >
+          <img
+            src={item.image}
+            alt={item.title}
+            className="my-4 pt-10 w-[100%] "
+          />
+          <a href="" className="text-[2rem] text-left text-white font-serif">
             {item.title}.com →
           </a>
           <p className="mt-2 font-sans text-gray text-[1.2rem] mobile:text-[1.5rem]">
