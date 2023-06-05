@@ -1,20 +1,11 @@
-// import logos
-import JPMorgan from "../assets/Logos/JP Morgan.svg";
-import Samsung from "../assets/Logos/Samsung.svg";
-import Tinder from "../assets/Logos/Tinder.svg";
-import Verizon from "../assets/Logos/Verizon.svg";
-import Visa from "../assets/Logos/Visa.svg";
-import Walmart from "../assets/Logos/Walmart.svg";
-
-// import images
-import Spense from "../assets/Spense.png";
-import YelpCamp from "../assets/YelpCamp.png";
+import Companies from "./Companies";
+import Projects from "./Projects";
 
 const MainBody = () => {
   return (
     <main className="my-5">
       <header className="text-left p-5 mobile:p-9">
-        <h2 className="text-[2rem] mobile:text-[4.2rem] text-white font-serif">
+        <h2 className="text-[2.25rem] mobile:text-[4.2rem] text-white font-serif">
           Helping companies build better, scalable software.
         </h2>
         <p className="text-gray font-sans text-[1.2rem] mobile:text-[1.5rem]">
@@ -23,74 +14,10 @@ const MainBody = () => {
           and more.
         </p>
       </header>
-      <section className="flex flex-wrap my-8 mobile:p-9 justify-center mx-auto mobile:w-[90%]">
-        <img
-          src={Walmart}
-          alt="Walmart"
-          className="py-2 px-7 mobile:px-11 h-9 mobile:h-10"
-        />
-        <img
-          src={JPMorgan}
-          alt="JP Morgan"
-          className="py-2 px-7 mobile:px-11 h-9 mobile:h-10"
-        />
-        <img
-          src={Visa}
-          alt="Visa"
-          className="py-2 px-7 mobile:px-11 h-9 mobile:h-10"
-        />
-        <img
-          src={Tinder}
-          alt="Tinder"
-          className="py-2 px-7 mobile:px-11 h-9 mobile:h-10"
-        />
-        <img
-          src={Samsung}
-          alt="Samsung"
-          className="py-2 px-7 mobile:px-11 h-9 mobile:h-10"
-        />
-        <img
-          src={Verizon}
-          alt="Verizon"
-          className="py-2 px-7 mobile:px-11 h-9 mobile:h-10"
-        />
-      </section>
 
-      <section className="my-10">
-        <div className="m-4">
-          <img src={Spense} alt="Spense" className="my-4 w-[100%] " />
-          <a
-            href=""
-            className="text-[1.8rem] mobile:text-[2rem] text-left text-white font-serif"
-          >
-            Spense.com →
-          </a>
-          <p className="mt-2 font-sans text-gray text-[1.2rem] mobile:text-[1.5rem]">
-            Rethinking the way writers get paid, an open-source platform
-            designed to help writers focus more on writing, and less on
-            <em> when</em> and
-            <em> how</em> they'll get paid. Project in collaboration with
-            Codewell.cc
-          </p>
-        </div>
-      </section>
+      <Companies />
 
-      <section className="my-10">
-        <div className="m-4 ">
-          <img src={YelpCamp} alt="YelpCamp" className="my-4 w-[100%]" />
-          <a
-            href=""
-            className="text-[1.8rem] mobile:text-[2rem] text-left text-white font-serif"
-          >
-            YelpCamp.com →
-          </a>
-          <p className="mt-2 font-sans text-gray text-[1.2rem] mobile:text-[1.5rem]">
-            Allowing backpack travelers to perfectly plan their trip through an
-            open-source platform similar to TripAdvisor. With over 1m MAU,
-            YelpCamp has been the crowd's favorite in 2021.
-          </p>
-        </div>
-      </section>
+      <Projects />
 
       <section className="mt-10 py-10 px-5 bg-dark-gray mx-auto">
         <h1 className="text-white font-serif text-[2.4rem] mobile:text-[2.8rem]">
