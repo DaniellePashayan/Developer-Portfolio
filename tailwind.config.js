@@ -14,11 +14,10 @@ export default {
       yellow: "#fbe850",
     },
     screens: {
-      // max size
-      base: "480px",
-      mobile: "768px",
-      tablet: "992px",
-      desktop: "1280px",
+      // min size
+      mobile: "480px",
+      tablet: "768px",
+      desktop: "992px",
     },
     extend: {},
   },

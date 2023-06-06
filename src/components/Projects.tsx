@@ -24,7 +24,7 @@ const projects: ProjectsProps[] = [
 
 const Projects = () => {
   return (
-    <section className="my-5">
+    <section className="my-5 tablet:m-5 desktop:m-10 grid grid-cols-1 desktop:grid-cols-2">
       {projects.map((item) => (
         <div className="m-4">
           <img
@@ -35,7 +35,7 @@ const Projects = () => {
           <a href="" className="text-[2rem] text-left text-white font-serif">
             {item.title}.com →
           </a>
-          <p className="mt-2 font-sans text-gray text-[1.2rem] mobile:text-[1.5rem]">
+          <p className="mt-2 font-sans text-gray text-[1.2rem] desktop:text-[1rem]">
             {item.description}
           </p>
         </div>

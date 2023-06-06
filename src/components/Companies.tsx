@@ -9,7 +9,7 @@ import Walmart from "../assets/Logos/Walmart.svg";
 const Companies = () => {
   return (
     <section className="flex justify-center py-10 ">
-      <div className="grid grid-cols-2 justify-items-center w-[70%]">
+      <div className="grid grid-cols-2 tablet:grid-cols-3 desktop:grid-cols-6 desktop:gap-8 justify-items-center w-[70%] desktop:w-[100%] desktop:mx-10">
         <img src={Walmart} alt="Walmart" className="py-2" />
         <img src={JPMorgan} alt="JP Morgan" className="py-2" />
         <img src={Visa} alt="Visa" className="py-2" />
